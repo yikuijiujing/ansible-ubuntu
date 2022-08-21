@@ -66,6 +66,7 @@
     # - { role: libreoffice, become: true }
     # - { role: maim, become: true }
     # - { role: min, become: true }
+    - { role: mscode, become: true }
     # - { role: mysql-workbench, become: true }
     # - { role: nautilus-plugins, become: true }
     # - { role: nemo, become: true }
@@ -94,7 +95,7 @@
     # - { role: wine, become: true }
     # - { role: workrave, become: true }
     # - { role: xfce-dockbarx, become: true }
-    - { role: xmind, become: true }
+    # - { role: xmind, become: true }
     # bspwm
     # - { role: sxhkd, become: true }
     # - { role: bspwm, become: true }
