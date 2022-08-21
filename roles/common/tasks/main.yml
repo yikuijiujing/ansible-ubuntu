@@ -53,6 +53,7 @@
     - rsync
     - smbclient
     - software-properties-common
+    - screen
     - sshfs
     - sshpass
     - tar

@@ -5,8 +5,8 @@
   roles:
     # Common roles
     # - { role: locales, become: true }
-    # - { role: common, become: true }
-    # - { role: zsh, become: true }
+    - { role: common, become: true }
+    - { role: zsh, become: true }
     # - { role: dotfiles, become: true }
     # - { role: java-openjdk, become: true }
     # - { role: phantomjs, become: true }
@@ -37,9 +37,9 @@
     # - { role: python, become: true }
     # - { role: redis, become: true }
     # - { role: rbenv, become: true }
-    # - { role: ssh, become: true }
+    - { role: ssh, become: true }
     # Desktop roles
-    # - { role: desktop, become: true }
+    - { role: desktop, become: true }
     # - { role: desktop-cleanup, become: true }
     # - { role: desktop-autostart, become: true }
     # - { role: desktop-preferences-unity }
@@ -53,7 +53,7 @@
     # - { role: compton, become: true }
     # - { role: copyq, become: true }
     # - { role: dbeaver, become: true }
-    # - { role: filezilla, become: true }
+    - { role: filezilla, become: true }
     # - { role: firefox, become: true }
     # - { role: flatabulous, become: true }
     # - { role: gdrive, become: true }
@@ -76,7 +76,7 @@
     # - { role: remmina, become: true }
     # - { role: ripgrep, become: true }
     # - { role: rofi, become: true }
-    # - { role: shutter, become: true }
+    - { role: shutter, become: true }
     # - { role: sift, become: true }
     # - { role: slop, become: true }
     # - { role: skype, become: true }
@@ -88,13 +88,13 @@
     # - { role: thunderbird, become: true }
     # - { role: ultra-flat-icons, become: true }
     # - { role: urxvt-perls }
-    # - { role: vagrant, become: true }
+    - { role: vagrant, become: true }
     # - { role: virtualbox, become: true }
     # - { role: vokoscreen, become: true }
     # - { role: wine, become: true }
     # - { role: workrave, become: true }
     # - { role: xfce-dockbarx, become: true }
-    # - { role: xmind, become: true }
+    - { role: xmind, become: true }
     # bspwm
     # - { role: sxhkd, become: true }
     # - { role: bspwm, become: true }
